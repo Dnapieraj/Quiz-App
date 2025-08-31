@@ -30,8 +30,44 @@ body {
 	background-position: center;
 }
 
+#start-screen {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: linear-gradient(180deg, #3e2a60 0%, #321061 100%);
+	border-radius: 6px;
+	padding: 8em;
+	max-width: 60rem;
+	margin: 6rem auto;
+	box-shadow: 1px 1px 8px 4px rgba(12, 5, 32, 0.6);
+}
+
+#start-screen h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 2rem;
+	margin: 0 0 2rem 0;
+	text-align: center;
+	color: #c1b2dd;
+}
+
+#start-screen button {
+	font-size: 2rem;
+	padding: 1rem 2rem;
+	border: none;
+	border-radius: 14px;
+	background: #6cb7f5;
+	cursor: pointer;
+	transition: background 0.6s, color 0.6s;
+}
+
+#start-screen button:hover {
+	background: #9d5af5;
+	color: white;
+}
+
 header {
-	margin: 2rem 0;
+	margin: 3rem 0;
 	text-align: center;
 }
 
